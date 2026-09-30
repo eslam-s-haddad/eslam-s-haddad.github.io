@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eslam S. Haddad | Performance Marketing Lead, GCC & Egypt</title>
+<meta name="description" content="Growth marketing strategist and performance lead. $250K+ ad spend managed, 25K+ qualified leads, five markets across the GCC and Egypt. Download my CV.">
+<meta property="og:title" content="Eslam S. Haddad | Performance Marketing Lead">
+<meta property="og:description" content="Paid media, tracking infrastructure and growth strategy for B2B and B2C brands across the GCC and Egypt.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="images/portrait.jpg">
+<link rel="icon" href="images/portrait.jpg">
+<meta name="theme-color" content="#15130F">
+
+<!-- GA4 (optional): replace G-XXXXXXX with your Measurement ID and uncomment.
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXX');</script>
+-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#15130F; --ink-2:#221F19; --paper:#F4EFE6; --paper-2:#FFFDF8;
+  --ember:#F08A4B; --rust:#C8470E; --mute-d:#A39B8E; --mute-l:#5C554B;
+  --body-d:#C9C1B4; --body-l:#2A2620; --line-d:rgba(244,239,230,.18);
+  --display:'Archivo',Arial,sans-serif; --text:'IBM Plex Sans',Arial,sans-serif;
+  --wrap:1180px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+body{font-family:var(--text);background:var(--paper);color:var(--ink);font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--ember);outline-offset:3px}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 24px}
+.dark{background:var(--ink);color:var(--paper)}
+section{padding:96px 0}
+h1,h2,h3{font-family:var(--display);line-height:1.08;letter-spacing:-.01em}
+h2{font-size:clamp(34px,4.6vw,56px);font-weight:800;max-width:18ch}
+.lede{font-size:20px;max-width:62ch;margin-top:16px}
+.dark .lede{color:var(--body-d)} .lede{color:var(--body-l)}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:10px;font-weight:600;font-size:17px;text-decoration:none;padding:14px 26px;border-radius:999px;border:2px solid transparent;transition:transform .15s ease,background .15s ease}
+.btn:hover{transform:translateY(-1px)}
+.btn-primary{background:var(--ember);color:var(--ink)}
+.btn-primary:hover{background:#f59b63}
+.btn-ghost{border-color:currentColor}
+.btn-ghost:hover{background:rgba(244,239,230,.08)}
+.btn svg{width:18px;height:18px}
+
+/* nav */
+nav{position:sticky;top:0;z-index:20;background:rgba(21,19,15,.92);backdrop-filter:blur(8px);color:var(--paper);border-bottom:1px solid var(--line-d)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:68px;gap:24px}
+.brand{font-family:var(--display);font-weight:800;font-size:20px;text-decoration:none;display:flex;align-items:center;gap:10px}
+.brand i{width:10px;height:10px;border-radius:50%;background:var(--ember);display:inline-block}
+.nav-links{display:flex;gap:28px;list-style:none;font-size:16px}
+.nav-links a{text-decoration:none;color:var(--body-d)}
+.nav-links a:hover{color:var(--paper)}
+nav .btn{padding:10px 20px;font-size:15px;white-space:nowrap}
+@media (max-width:520px){.brand{font-size:17px;white-space:nowrap}nav .btn{padding:9px 14px;font-size:14px}}
+@media (max-width:860px){.nav-links{display:none}}
+
+/* hero */
+.hero{padding:72px 0 0}
+.hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:56px;align-items:end}
+.hero h1{font-size:clamp(44px,6.4vw,84px);font-weight:900;max-width:13ch}
+.hero h1 span{color:var(--ember)}
+.hero .lede{font-size:21px;margin-top:24px}
+.open{display:inline-flex;align-items:center;gap:10px;font-size:15px;font-weight:600;color:var(--paper);border:1px solid var(--line-d);border-radius:999px;padding:6px 14px;margin-bottom:28px}
+.open b{width:8px;height:8px;border-radius:50%;background:#6FCF7F;display:inline-block}
+.cta-row{display:flex;flex-wrap:wrap;gap:14px;margin-top:36px}
+.portrait{position:relative;aspect-ratio:4/5;background:var(--ink-2);overflow:hidden}
+.portrait img{width:100%;height:100%;object-fit:cover}
+.portrait .mono{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:var(--display);font-weight:900;font-size:120px;color:var(--ember)}
+.portrait img+.mono{display:none}
+.portrait figcaption{position:absolute;left:0;bottom:0;background:var(--ember);color:var(--ink);font-weight:600;font-size:14px;padding:8px 14px}
+.proof{display:grid;grid-template-columns:repeat(4,1fr);margin-top:72px;border-top:1px solid var(--line-d)}
+.proof div{padding:28px 24px 36px 0}
+.proof div+div{padding-left:24px;border-left:1px solid var(--line-d)}
+.proof strong{display:block;font-family:var(--display);font-weight:900;font-size:clamp(34px,4vw,48px);line-height:1;color:var(--paper)}
+.proof strong.hot{color:var(--ember)}
+.proof span{display:block;margin-top:10px;font-size:15px;color:var(--mute-d);line-height:1.45}
+@media (max-width:860px){
+  .hero-grid{grid-template-columns:1fr}
+  .portrait{max-width:360px;aspect-ratio:1/1}
+  .proof{grid-template-columns:1fr 1fr}
+  .proof div:nth-child(3){padding-left:0;border-left:0}
+  .proof div:nth-child(n+3){border-top:1px solid var(--line-d)}
+}
+
+/* own */
+.own-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:40px;margin-top:56px}
+.own-grid article{border-top:4px solid var(--ink);padding-top:22px}
+.own-grid article:first-child{border-color:var(--rust)}
+.own-grid h3{font-size:26px;font-weight:800;margin-bottom:10px}
+.own-grid p{color:var(--body-l)}
+@media (max-width:860px){.own-grid{grid-template-columns:1fr;gap:32px}}
+
+/* cases */
+.cases-head{display:flex;justify-content:space-between;align-items:end;gap:24px;flex-wrap:wrap}
+.filters{display:flex;flex-wrap:wrap;gap:8px}
+.filters button{font:600 15px var(--text);background:transparent;color:var(--ink);border:2px solid var(--ink);border-radius:999px;padding:8px 16px;cursor:pointer}
+.filters button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.case{display:grid;grid-template-columns:1fr 1fr;gap:48px;padding:48px 0;border-top:2px solid var(--ink)}
+.case:first-of-type{margin-top:40px}
+.case[hidden]{display:none}
+.tag{font-size:14px;font-weight:600;color:var(--rust);letter-spacing:.02em}
+.case h3{font-size:clamp(26px,3vw,34px);font-weight:800;margin:10px 0 22px;max-width:22ch}
+.case dl{display:grid;gap:14px}
+.case dt{font-size:14px;font-weight:600;color:var(--mute-l)}
+.case dd{color:var(--body-l)}
+.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:28px}
+.metrics strong{display:block;font-family:var(--display);font-weight:900;font-size:clamp(28px,3vw,38px);line-height:1.05}
+.metrics div:first-child strong{color:var(--rust)}
+.metrics span{display:block;font-size:14px;color:var(--mute-l);margin-top:6px;line-height:1.4}
+.shot{background:var(--paper-2);border:2px solid var(--ink);padding:12px;align-self:start;display:grid;gap:12px}
+.shot img{width:100%;height:auto}
+.shot figcaption{font-size:13px;color:var(--mute-l)}
+.shot.missing{display:none}
+.case.noshot{grid-template-columns:1fr}
+.note{font-size:13px;color:var(--mute-l);margin-top:14px}
+@media (max-width:860px){.case{grid-template-columns:1fr;gap:28px}}
+
+/* wall */
+.wall{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:48px}
+.wall div{background:var(--ink-2);padding:24px 26px}
+.wall small{display:block;font-size:14px;color:var(--mute-d)}
+.wall strong{display:block;font-family:var(--display);font-weight:900;font-size:34px;color:var(--ember);margin:6px 0 4px;line-height:1.1}
+.wall span{font-size:15px;color:#E6DFD3}
+@media (max-width:860px){.wall{grid-template-columns:1fr 1fr}}
+@media (max-width:520px){.wall{grid-template-columns:1fr}}
+
+/* career */
+.career{display:grid;grid-template-columns:repeat(4,1fr);gap:32px;margin-top:40px}
+.career div{border-top:2px solid var(--line-d);padding-top:20px}
+.career strong{display:block;font-family:var(--display);font-weight:900;font-size:40px;line-height:1;color:var(--paper)}
+.career span{display:block;font-size:15px;color:var(--body-d);margin-top:10px;line-height:1.45}
+@media (max-width:860px){.career{grid-template-columns:1fr 1fr}}
+
+/* loop */
+.loop{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:56px;counter-reset:s}
+.loop li{list-style:none;counter-increment:s;padding:28px 28px 32px 0;border-top:2px solid var(--ink)}
+.loop li:nth-child(3n+2),.loop li:nth-child(3n){padding-left:28px;border-left:1px solid rgba(21,19,15,.15)}
+.loop li::before{content:counter(s,decimal-leading-zero);font-family:var(--display);font-weight:900;font-size:30px;color:var(--rust);display:block;margin-bottom:10px}
+.loop h3{font-size:22px;font-weight:800;margin-bottom:8px}
+.loop p{color:var(--body-l);font-size:17px}
+@media (max-width:860px){.loop{grid-template-columns:1fr}.loop li{padding-left:0!important;border-left:0!important}}
+
+/* strategy */
+.strat{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:48px}
+.strat article{background:var(--paper-2);border:2px solid var(--ink);padding:30px;display:flex;flex-direction:column;gap:12px}
+.strat h3{font-size:24px;font-weight:800}
+.strat p{color:var(--body-l);font-size:17px}
+.strat .move{border-top:1px solid rgba(21,19,15,.2);padding-top:12px}
+.strat .move b{color:var(--rust)}
+.strat .scope{font-size:14px;color:var(--mute-l);margin-top:auto}
+@media (max-width:860px){.strat{grid-template-columns:1fr}}
+
+/* experience */
+.xp{margin-top:48px}
+.xp li{list-style:none;display:grid;grid-template-columns:200px 1fr 1fr;gap:28px;padding:22px 0;border-top:1px solid var(--line-d)}
+.xp li:first-child{border-top:2px solid var(--ember)}
+.xp time{font-size:15px;font-weight:600;color:var(--mute-d)}
+.xp li:first-child time{color:var(--ember)}
+.xp h3{font-family:var(--text);font-size:19px;font-weight:700;line-height:1.35}
+.xp .co{font-size:15px;color:var(--mute-d)}
+.xp p{font-size:16px;color:var(--body-d)}
+@media (max-width:860px){.xp li{grid-template-columns:1fr;gap:6px}}
+.stack{display:grid;grid-template-columns:repeat(4,1fr);gap:32px;margin-top:64px}
+.stack h3{font-family:var(--text);font-size:14px;font-weight:600;color:var(--mute-d);margin-bottom:10px}
+.stack p{font-size:17px;line-height:1.8}
+@media (max-width:860px){.stack{grid-template-columns:1fr 1fr}}
+
+/* final */
+.final h2{font-size:clamp(40px,6vw,76px);font-weight:900;max-width:14ch}
+.final h2 span{color:var(--ember)}
+.contacts{display:grid;grid-template-columns:repeat(3,1fr);margin-top:48px;border-top:1px solid var(--line-d)}
+.contacts a{display:block;text-decoration:none;padding:22px 20px 22px 0}
+.contacts a+a{padding-left:20px;border-left:1px solid var(--line-d)}
+.contacts small{display:block;font-size:14px;color:var(--mute-d)}
+.contacts span{font-size:18px;font-weight:600;word-break:break-word}
+.contacts a:hover span{color:var(--ember)}
+@media (max-width:860px){.contacts{grid-template-columns:1fr}.contacts a+a{padding-left:0;border-left:0;border-top:1px solid var(--line-d)}}
+.edu{font-size:15px;color:var(--mute-d);margin-top:40px;max-width:80ch}
+footer{background:var(--ink);color:var(--mute-d);font-size:14px;padding:28px 0;border-top:1px solid var(--line-d)}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+</style>
+</head>
+<body>
+
+<nav aria-label="Main">
+  <div class="wrap">
+    <a class="brand" href="#top"><i></i>Eslam S. Haddad</a>
+    <ul class="nav-links">
+      <li><a href="#results">Results</a></li>
+      <li><a href="#method">How I work</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a class="btn btn-primary" href="cv.pdf" download data-track="cv_download_nav">Download CV</a>
+  </div>
+</nav>
+
+<header class="hero dark" id="top">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <p class="open"><b></b>Open to in-house roles in KSA, UAE and Egypt</p>
+        <h1>I turn ad spend into <span>qualified pipeline.</span></h1>
+        <p class="lede">Growth marketing strategist and performance lead with 6+ years running paid media for B2B and B2C brands across the GCC and Egypt. I own the whole loop: research, offer, tracking, creative testing and scale.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="cv.pdf" download data-track="cv_download_hero">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0 5-5m-5 5-5-5M4 21h16"/></svg>
+            Download my CV
+          </a>
+          <a class="btn btn-ghost" href="https://wa.me/201021304254?text=Hi%20Eslam%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20talk%20about%20a%20role." target="_blank" rel="noopener" data-track="whatsapp_hero">Message me on WhatsApp</a>
+        </div>
+      </div>
+      <figure class="portrait">
+        <img src="images/portrait.jpg" alt="Portrait of Eslam S. Haddad" onerror="this.remove()">
+        <div class="mono" aria-hidden="true">EH</div>
+        <figcaption>Performance Lead · GCC &amp; Egypt</figcaption>
+      </figure>
+    </div>
+    <div class="proof">
+      <div><strong class="hot">$250K+</strong><span>ad spend managed across Meta, Google, Snapchat, TikTok and LinkedIn</span></div>
+      <div><strong>25K+</strong><span>qualified leads generated, largely high-ticket</span></div>
+      <div><strong>50+</strong><span>brands served in 20+ sectors</span></div>
+      <div><strong>5</strong><span>markets: KSA, UAE, Kuwait, Qatar, Egypt</span></div>
+    </div>
+  </div>
+</header>
+
+<section id="own">
+  <div class="wrap">
+    <h2>What I'd own on your team</h2>
+    <p class="lede">Agency years taught me speed across dozens of accounts. In-house, that becomes one thing: a growth engine your team can run and trust.</p>
+    <div class="own-grid">
+      <article>
+        <h3>The paid-media number</h3>
+        <p>Budget split, channel mix and weekly CPL/CPA calls across five ad platforms, with spend moving to whatever converts.</p>
+      </article>
+      <article>
+        <h3>The measurement layer</h3>
+        <p>GTM, GA4, Meta Pixel + CAPI, and call and WhatsApp events live before a riyal is spent, so every decision rests on clean data.</p>
+      </article>
+      <article>
+        <h3>A system, not a hero</h3>
+        <p>Testing frameworks, creative briefs and reporting a team can run without me in the room, from market research to scale.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="results" style="padding-top:0">
+  <div class="wrap">
+    <div class="cases-head">
+      <div>
+        <h2>Seven campaigns, real dashboards</h2>
+        <p class="lede">Client names withheld. Every figure comes from the ad platform; costs are spend divided by results.</p>
+      </div>
+      <div class="filters" role="group" aria-label="Filter case studies by market">
+        <button type="button" aria-pressed="true" data-f="all">All</button>
+        <button type="button" aria-pressed="false" data-f="gcc">GCC</button>
+        <button type="button" aria-pressed="false" data-f="egypt">Egypt</button>
+      </div>
+    </div>
+
+    <article class="case" data-m="egypt">
+      <div>
+        <p class="tag">Meta · Egypt · B2B office furniture</p>
+        <h3>2,203 sales conversations for an office furniture company</h3>
+        <dl>
+          <div><dt>The brief</dt><dd>Bring in B2B demand from companies furnishing offices, not casual browsers.</dd></div>
+          <div><dt>What I did</dt><dd>Business-intent segmentation, creatives showing real office setups, and weekly budget moves to the cheapest ad sets. Best ad set: 11.90 EGP per chat.</dd></div>
+        </dl>
+        <div class="metrics">
+          <div><strong>2,203</strong><span>messaging conversations</span></div>
+          <div><strong>~40 EGP</strong><span>avg. cost per conversation (87.6K EGP spend)</span></div>
+          <div><strong>994K</strong><span>people reached</span></div>
+        </div>
+      </div>
+      <figure class="shot"><img src="images/case-01.jpg" alt="Meta Ads Manager: 2,203 messaging contacts, 994,399 reach, 87,620.72 EGP spent"></figure>
+    </article>
+
+    <article class="case" data-m="gcc">
+      <div>
+        <p class="tag">Snapchat · Saudi Arabia · Interior design</p>
+        <h3>359 project inquiries for an interior design company</h3>
+        <dl>
+          <div><dt>The brief</dt><dd>High-ticket, high-consideration service: fill the pipeline with homeowners ready to talk.</dd></div>
+          <div><dt>What I did</dt><dd>Snapchat lead forms for low-friction inquiries, with creative rotation to hold cost as reach passed 2.6M paid impressions over Q4 2023.</dd></div>
+        </dl>
+        <div class="metrics">
+          <div><strong>359</strong><span>project inquiries</span></div>
+          <div><strong>~$30</strong><span>cost per lead ($10.9K spend)</span></div>
+          <div><strong>2.64M</strong><span>paid impressions</span></div>
+        </div>
+      </div>
+      <figure class="shot"><img src="images/case-02.jpg" alt="Snapchat Ads Manager: $10,892.84 spent, 2,643,762 paid impressions, 359 leads"></figure>
+    </article>
+
+    <article class="case" data-m="gcc">
+      <div>
+        <p class="tag">Google Search · Kuwait · Education</p>
+        <h3>296 enrollment conversions at $4.55 for a private institute</h3>
+        <dl>
+          <div><dt>The brief</dt><dd>Turn parent and student search demand into enrollment inquiries on a lean budget.</dd></div>
+          <div><dt>What I did</dt><dd>High-intent keywords, weekly search-term mining and negatives, and bidding refined toward conversion volume from Dec 2024 to Jul 2025.</dd></div>
+        </dl>
+        <div class="metrics">
+          <div><strong>296</strong><span>conversions</span></div>
+          <div><strong>$4.55</strong><span>cost per conversion ($1.35K spend)</span></div>
+          <div><strong>7.4%</strong><span>click-to-conversion rate</span></div>
+        </div>
+      </div>
+      <figure class="shot"><img src="images/case-03.jpg" alt="Google Ads overview: 3.99K clicks, 296.5 conversions, $4.55 cost per conversion"></figure>
+    </article>
+
+    <article class="case" data-m="egypt">
+      <div>
+        <p class="tag">Meta · Egypt · Real estate</p>
+        <h3>1,004 buyer contacts for a real estate developer</h3>
+        <dl>
+          <div><dt>The brief</dt><dd>Quality over volume in a market flooded with cheap, low-intent real estate leads.</dd></div>
+          <div><dt>What I did</dt><dd>Two capture paths: instant forms (533 leads) and messaging (471 chats). Audiences, creatives and copy tuned to purchase intent.</dd></div>
+        </dl>
+        <div class="metrics">
+          <div><strong>1,004</strong><span>leads + conversations</span></div>
+          <div><strong>~36 EGP</strong><span>cost per contact (35.9K EGP spend)</span></div>
+          <div><strong>217K</strong><span>people reached</span></div>
+        </div>
+      </div>
+      <figure class="shot"><img src="images/case-04.jpg" alt="Meta Ads Manager: 216,856 reach, 533 leads, 471 messaging conversations, 35,933.74 EGP spent"></figure>
+    </article>
+
+    <article class="case" data-m="gcc">
+      <div>
+        <p class="tag">Google Search · UAE · Healthcare</p>
+        <h3>173 calls and WhatsApp chats at AED 15.60 in Dubai healthcare</h3>
+        <dl>
+          <div><dt>The brief</dt><dd>Hold cost per conversion down in one of the region's priciest search categories.</dd></div>
+          <div><dt>What I did</dt><dd>Intent-based keyword groups, call and WhatsApp clicks tracked as conversions, and tight bid control through demand swings (Nov to Dec 2025).</dd></div>
+        </dl>
+        <div class="metrics">
+          <div><strong>173</strong><span>calls &amp; WhatsApp conversations</span></div>
+          <div><strong>AED 15.60</strong><span>cost per conversion</span></div>
+          <div><strong>AED 2.7K</strong><span>total spend in one month</span></div>
+        </div>
+      </div>
+      <figure class="shot"><img src="images/case-05.jpg" alt="Google Ads overview: 264 clicks, 173 conversions, AED 15.60 cost per conversion"></figure>
+    </article>
+
+    <article class="case noshot" data-m="egypt">
+      <div>
+        <p class="tag">Google Search · Egypt · B2B services</p>
+        <h3>The #1 sponsored spot and 446 conversions for a marketing agency</h3>
+        <dl>
+          <div><dt>The brief</dt><dd>Win high-intent searches like "marketing agency" in Egypt and turn them into leads.</dd></div>
+          <div><dt>What I did</dt><dd>Exact and phrase match only, a deep negative keyword list, constant search-term cleanup, and clean conversion tracking steering bids.</dd></div>
+        </dl>
+        <div class="metrics">
+          <div><strong>446</strong><span>conversions</span></div>
+          <div><strong>7.68%</strong><span>CTR vs 5.65% sector benchmark*</span></div>
+          <div><strong>$2.53</strong><span>cost per conversion ($1.13K spend)</span></div>
+        </div>
+        <p class="note">*WordStream Google Ads Benchmarks 2025, Business Services (US median), used for CTR only.</p>
+      </div>
+
+    </article>
+
+    <article class="case" data-m="gcc">
+      <div>
+        <p class="tag">Meta · Kuwait · Training</p>
+        <h3>305 course inquiries at ~$2.13 each for a training center</h3>
+        <dl>
+          <div><dt>The brief</dt><dd>Generate inquiries for courses and training programs from a small test budget.</dd></div>
+          <div><dt>What I did</dt><dd>ABO during testing to isolate winning audiences and creatives, then CBO to scale, with budget shifted to the top ad sets.</dd></div>
+        </dl>
+        <div class="metrics">
+          <div><strong>305</strong><span>messaging conversations</span></div>
+          <div><strong>~$2.13</strong><span>cost per conversation ($650 spend)</span></div>
+          <div><strong>4.05%</strong><span>CTR</span></div>
+        </div>
+      </div>
+      <figure class="shot"><img src="images/case-07.jpg" alt="Meta Ads Manager: 23,185 reach, 305 messaging conversations, 4.05% CTR, $650.15 spent"></figure>
+    </article>
+  </div>
+</section>
+
+<section class="dark" id="more">
+  <div class="wrap">
+    <h2>More results across the region</h2>
+    <div class="wall">
+      <div><small>Slimming clinic · Riyadh</small><strong>#1 position</strong><span>Google Search · 6.51% CTR</span></div>
+      <div><small>Domestic tourism · KSA</small><strong>102 leads</strong><span>Meta · $14.63 CPL</span></div>
+      <div><small>Home furniture · Egypt</small><strong>1,541 chats</strong><span>Meta · 7.41% CTR</span></div>
+      <div><small>Cosmetic clinic · Jeddah</small><strong>362 chats</strong><span>Meta · 1.23M impressions</span></div>
+      <div><small>Education website · KSA</small><strong>14,994 clicks</strong><span>Meta · SAR 3.79 CPM</span></div>
+      <div><small>Slimming center · KSA</small><strong>5,486 clicks</strong><span>Snapchat · $1.34 CPC</span></div>
+      <div><small>Hospital offer · KSA</small><strong>3,080 clicks</strong><span>Snapchat · $0.20 CPC</span></div>
+      <div><small>Restaurant · Kuwait</small><strong>1,511 clicks</strong><span>Snapchat · 0.84% CTR</span></div>
+      <div><small>Bariatric clinic · KSA</small><strong>59 leads</strong><span>Snapchat · $4.88 CPL</span></div>
+    </div>
+    <h3 style="font-size:28px;font-weight:800;margin-top:80px">Career totals</h3>
+    <div class="career">
+      <div><strong>1,000+</strong><span>campaigns launched and optimized, 2020 to today</span></div>
+      <div><strong>25K+</strong><span>qualified leads across real estate, B2B industrial, e-commerce and furniture</span></div>
+      <div><strong>+28%</strong><span>best conversion-rate lift on an account I took over</span></div>
+      <div><strong>−30%</strong><span>best cost-per-lead reduction on an account I took over</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="method">
+  <div class="wrap">
+    <h2>One loop, six steps, no guessing</h2>
+    <p class="lede">The same method runs on every account, which is why it transfers to an in-house team.</p>
+    <ol class="loop">
+      <li><h3>Market &amp; competitor intel</h3><p>Every competitor's ads on every platform, search demand and real customer pain points.</p></li>
+      <li><h3>Audience &amp; offer</h3><p>Micro-segments, each with one sharp offer and one message it can believe.</p></li>
+      <li><h3>Funnel &amp; media plan</h3><p>Channels matched to intent, and a budget split that moves from test to scale.</p></li>
+      <li><h3>Tracking before spend</h3><p>GTM, GA4, Pixel and CAPI, plus call and WhatsApp events, live before launch.</p></li>
+      <li><h3>Creative testing</h3><p>ABO to find winning hooks and audiences, CBO to scale what the data proves.</p></li>
+      <li><h3>KPI loop</h3><p>Weekly CPL and CPA reviews; budget follows whatever converts.</p></li>
+    </ol>
+
+    <h2 style="margin-top:112px">Strategy work</h2>
+    <p class="lede">Growth strategies delivered to clients, names withheld.</p>
+    <div class="strat">
+      <article>
+        <p class="tag">B2B industrial · Egypt</p>
+        <h3>A rubber recycler with zero online footprint</h3>
+        <p>Real cost and purity advantages, but invisible online while one rival owned the visuals and another controlled production through installation.</p>
+        <p class="move"><b>The neutral partner:</b> supply contractors instead of competing with them for projects, backed by lab-grade specs.</p>
+        <p class="scope">Competitor archetypes · SWOT · positioning · persona &amp; channel plan</p>
+      </article>
+      <article>
+        <p class="tag">Healthcare · Saudi Arabia</p>
+        <h3>Turning a doctor's viral reach into authority</h3>
+        <p>Carousels peaking at 2.5M views, but no system to turn attention into trust, search demand and patients.</p>
+        <p class="move"><b>Search-first authority:</b> four brand pillars, topics built on Saudi search intent, and a locked carousel and video-hook system.</p>
+        <p class="scope">Brand architecture · visual system · content &amp; hook frameworks · team roadmap</p>
+      </article>
+      <article>
+        <p class="tag">B2B to B2C · Egypt</p>
+        <h3>Taking an industrial lighting brand to consumers</h3>
+        <p>All revenue came from factories and warehouses, while garage, workshop and farm owners had no credible heavy-duty option.</p>
+        <p class="move"><b>"Built for the factory floor. Priced for your garage."</b> Three segments, proof-led ads and a WhatsApp sales desk.</p>
+        <p class="scope">Segmentation · message platform · channel mix · 90-day pilot</p>
+      </article>
+      <article>
+        <p class="tag">Hospitality fit-out · Egypt</p>
+        <h3>Closing the funnel gap for a restaurant designer</h3>
+        <p>Beautiful project posts stopped at awareness: no trust content, no clear call to action, no path to a signed contract.</p>
+        <p class="move"><b>Own the heritage niche:</b> a 90-day plan from trust to leads to referrals, measured on CPL and lead-to-contract rate.</p>
+        <p class="scope">Funnel audit · buyer-motive map · 3-phase content &amp; ads plan · KPIs</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="dark" id="experience">
+  <div class="wrap">
+    <h2>Experience</h2>
+    <ol class="xp">
+      <li><time>Jan 2026 – Present</time><div><h3>Growth Marketing Strategist &amp; Performance Lead</h3><p class="co">Midrar Marketing Agency</p></div><p>B2B growth strategy for manufacturers and industrial suppliers, Egypt &amp; GCC</p></li>
+      <li><time>Jul 2025 – Dec 2025</time><div><h3>Senior Performance Media Buyer</h3><p class="co">Brandify</p></div><p>Meta, Google, TikTok &amp; Snapchat across KSA, UAE and Egypt</p></li>
+      <li><time>Dec 2024 – Jul 2025</time><div><h3>Senior Media Buyer</h3><p class="co">Media Factory World</p></div><p>GCC campaigns with market-tailored creatives and offers</p></li>
+      <li><time>Dec 2022 – Oct 2023</time><div><h3>Media Buyer</h3><p class="co">Nesterea</p></div><p>Meta and Google performance campaigns</p></li>
+      <li><time>Sep 2020 – Nov 2022</time><div><h3>Media Buyer</h3><p class="co">El Tayeb Office Furniture</p></div><p>B2B furniture on Meta, custom audiences and remarketing</p></li>
+      <li><time>Feb 2020 – Jul 2020</time><div><h3>Media Buyer</h3><p class="co">Emaar Real Estate Marketing</p></div><p>Real estate lead generation and creative testing</p></li>
+    </ol>
+    <div class="stack">
+      <div><h3>Ad platforms</h3><p>Meta<br>Google Search &amp; PMax<br>Snapchat<br>TikTok<br>LinkedIn</p></div>
+      <div><h3>Tracking</h3><p>Google Tag Manager<br>GA4<br>Meta Pixel + CAPI<br>Looker Studio</p></div>
+      <div><h3>Intelligence</h3><p>AdSpy<br>SimilarWeb<br>Competitor ad audits</p></div>
+      <div><h3>Creative &amp; AI</h3><p>Canva Pro<br>CapCut<br>ChatGPT</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="dark final" id="contact" style="border-top:1px solid var(--line-d)">
+  <div class="wrap">
+    <h2>Hiring a performance lead? <span>Let's talk.</span></h2>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="cv.pdf" download data-track="cv_download_footer">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0 5-5m-5 5-5-5M4 21h16"/></svg>
+        Download my CV
+      </a>
+    </div>
+    <div class="contacts">
+      <a href="https://wa.me/201021304254?text=Hi%20Eslam%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20talk%20about%20a%20role." target="_blank" rel="noopener" data-track="whatsapp_footer"><small>WhatsApp</small><span>+20 102 130 4254</span></a>
+      <a href="mailto:eslamsalem20252@gmail.com?subject=Role%20opportunity" data-track="email_footer"><small>Email</small><span>eslamsalem20252@gmail.com</span></a>
+      <a href="https://www.linkedin.com/in/eslam-s-haddad" target="_blank" rel="noopener" data-track="linkedin_footer"><small>LinkedIn</small><span>linkedin.com/in/eslam-s-haddad</span></a>
+    </div>
+    <p class="edu">B.Com, Business Administration, Beni Suef University · Google Fundamentals of Digital Marketing · Yanfaa: Facebook Ads for Real Estate, Real Estate Marketing, Content Writing, Reels, Canva Design</p>
+  </div>
+</section>
+
+<footer><div class="wrap"><span>© <span id="yr">2026</span> Eslam S. Haddad</span><span>Performance marketing · GCC &amp; Egypt</span></div></footer>
+
+<script>
+// hide screenshot frames whose image file is missing
+function markShots(){document.querySelectorAll('.shot').forEach(function(f){ if(!f.querySelector('img')){ f.classList.add('missing'); f.closest('.case').classList.add('noshot'); } });}
+document.querySelectorAll('.shot img').forEach(function(img){
+  function drop(){ img.remove(); markShots(); }
+  if(img.complete && img.naturalWidth===0){ drop(); } else { img.addEventListener('error',drop); }
+});
+// case filters
+var btns=document.querySelectorAll('.filters button');
+btns.forEach(function(b){
+  b.addEventListener('click',function(){
+    btns.forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false');});
+    var f=b.dataset.f;
+    document.querySelectorAll('.case').forEach(function(c){ c.hidden = !(f==='all'||c.dataset.m===f); });
+  });
+});
+// GA4 events for CV downloads and contact clicks (fires only if gtag is installed)
+document.querySelectorAll('[data-track]').forEach(function(el){
+  el.addEventListener('click',function(){ if(window.gtag){ gtag('event',el.dataset.track,{link_url:el.href}); } });
+});
+document.getElementById('yr').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
